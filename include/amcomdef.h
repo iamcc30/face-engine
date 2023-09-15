@@ -85,9 +85,9 @@ typedef struct __tag_point
 #define MFalse		0
 #define MTrue		1
 
-//#ifndef MAX_PATH
-//#define MAX_PATH	256
-//#endif
+#ifndef MAX_PATH
+#define MAX_PATH	256
+#endif
 
 #ifdef M_WIDE_CHAR
 #define MTChar MWChar
